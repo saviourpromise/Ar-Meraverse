@@ -21,6 +21,20 @@ body{
   gap: 3rem;
 }
 
+.hala{
+  padding-top: 20px;
+}
+
+.joel{
+  display: flex;
+  gap: 8rem;
+}
+
+.joele{
+  display: flex;
+  gap: 7rem;
+}
+
 .group{
   display: flex;
   gap: 4.6rem;
@@ -336,6 +350,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    padding-left: 15%;
   }
 
   .port{
@@ -349,6 +364,7 @@ footer{
   .scss{
     display: flex;
     gap: 4rem;
+    padding-left: 6%;
   }
 
   .toggle-button{
@@ -369,7 +385,8 @@ footer{
 
   .navbar-links ul{
     flex-direction: column;
-    width: 100%;
+    margin-left: 72%;
+    margin-top: -7px;
     background: var(--2, linear-gradient(97deg, #f86cf8 12.04%, #64cef5 81.84%));
     z-index: 1;
   }
@@ -398,7 +415,7 @@ footer{
   .ona{
     font-size: 25px;
     font-weight: 400;
-    padding-left: 20%;
+    padding-left: 3%;
     padding-top: 5%;
     padding-bottom: 7%;
   }
@@ -408,13 +425,13 @@ footer{
   }
 
   .six{
-    width: 80%;
-    padding-left: 20%;
+    width: 95%;
+    padding-left: 1%;
   }
 
   .sixx{
-    width: 80%;
-    padding-left: 20%;
+    width: 95%;
+    padding-left: 1%;
     padding-top: 10%;
   }
 
@@ -425,7 +442,7 @@ footer{
   .frame{
     display: flex;
     flex-direction: column;
-    padding-left: 18%;
+    padding-left: 10%;
     gap: 20px;
   }
   .frames{
@@ -441,7 +458,7 @@ footer{
   }
 
   .one{
-    width: 80%;
+    width: 90%;
   }
 
   .cla{
@@ -469,6 +486,10 @@ footer{
     font-size: 11.5px;
   }
 
+  .link{
+    padding-left: 13%;
+  }
+
   .leo{
     padding-right: 10%;
   }
@@ -491,7 +512,7 @@ footer{
   .div{
     display: flex;
     gap: 1rem;
-    padding-left: 10%;
+    padding-left: 19%;
   }
 
   .sect{
@@ -517,5 +538,37 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 1px;
+  }
+}
+
+@media screen and (max-width:420px){
+  .cla{
+    position: absolute;
+    top: 28%;
+    left: 10%;
+  }
+
+  .cle{
+    position: absolute;
+    top: 15%;
+    left: 37%;
+  }
+
+  .cli{
+    position: absolute;
+    top: 25%;
+    left: 83%;
+  }
+
+  .section{
+    padding-left: 30px;
+  }
+
+  .leo{
+    padding-left: 7%;
+  }
+
+  .five{
+    padding-left: 20px;
   }
 }
